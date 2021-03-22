@@ -1,0 +1,8 @@
+@mixin font($normal, $medium, $large) {
+  font-family: "Roboto", sans-serif;
+  @if $normal == normal {
+    font-size: 18px;
+  } @else if $medium == medium {
+    font-size: 25px;
+  }
+}
