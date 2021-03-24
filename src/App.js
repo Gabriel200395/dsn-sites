@@ -1,8 +1,9 @@
+import Page from "./Page/Page";
 function App() {
   return (
-    <div className="App">
-      <div className="titulo">Desenvolvendo site com sass</div>
-    </div>
+    <>
+      <Page />
+    </>
   );
 }
 

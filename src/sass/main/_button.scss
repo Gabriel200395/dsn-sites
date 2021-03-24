@@ -1,0 +1,30 @@
+@mixin buttons($tamanho) {
+  @if $tamanho == pequeno {
+    width: 100px;
+    height: 30px;
+    outline: none;
+    color: #fff;
+    @include font(pequena);
+    background-color: $secundaria;
+    border: none;
+    border-radius: 7px;
+  } @else if $tamanho == medio {
+    width: 170px;
+    height: 30px;
+    outline: none;
+    color: #fff;
+    @include font(pequena);
+    background-color: $secundaria;
+    border: none;
+    border-radius: 7px;
+  } @else if $tamanho == grande {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    color: #fff;
+    @include font(pequena);
+    background-color: $secundaria;
+    border: none;
+    border-radius: 7px;
+  }
+}
